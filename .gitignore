@@ -16,3 +16,4 @@
 *.iml
 /src/generated/**/.cache/
 /mcmodsrepo/
+/libs/

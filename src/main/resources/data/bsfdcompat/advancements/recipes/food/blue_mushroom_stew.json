@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_any_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blue_skies:snowcap_mushroom",
+              "blue_skies:baneful_mushroom"
+            ]
+          }
+        ]
+      }
+    },
+    "has_crafting_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bsfdcompat:crafting/blue_mushroom_stew"
+      }
+    },
+    "has_cooking_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bsfdcompat:cooking/blue_mushroom_stew"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_any_ingredient",
+      "has_crafting_recipe",
+      "has_cooking_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bsfdcompat:crafting/blue_mushroom_stew",
+      "bsfdcompat:cooking/blue_mushroom_stew"
+    ]
+  },
+  "sends_telemetry_event": false
+}

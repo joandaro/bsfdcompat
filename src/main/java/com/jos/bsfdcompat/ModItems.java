@@ -29,6 +29,7 @@ public final class ModItems {
     public static final RegistryObject<Item> CARABEEF_ROLL = food("carabeef_roll", 10, 0.8F);
     public static final RegistryObject<Item> VENISON_PIE = meal("venison_pie", 10, 0.8F, 180);
     public static final RegistryObject<Item> GLAZED_MONITOR_TAIL = meal("glazed_monitor_tail", 10, 0.8F, 180);
+    public static final RegistryObject<Item> BLUE_MUSHROOM_STEW = meal("blue_mushroom_stew", 6, 0.6F, 180);
     public static final RegistryObject<Item> SEAS_AND_SKIES_BURGER = food("seas_and_skies_burger", 10, 0.8F);
     public static final RegistryObject<Item> BRIGHT_DUMPLING = food("bright_dumpling", 5, 0.6F);
     public static final RegistryObject<Item> DAWN_ONIGIRI = food("dawn_onigiri", 7, 0.7F);

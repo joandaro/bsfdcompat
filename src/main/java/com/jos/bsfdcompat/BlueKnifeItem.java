@@ -4,9 +4,12 @@ import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
 import com.legacy.blue_skies.data.BlueSkiesData;
 import com.legacy.blue_skies.data.objects.ToolHandleType;
+import com.legacy.blue_skies.data.objects.tags.SkiesItemTags;
 import com.legacy.blue_skies.items.util.ICustomHandleItem;
 import com.legacy.blue_skies.items.util.ToolUtils;
+import com.legacy.blue_skies.util.StringUtil;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.ai.attributes.Attribute;
@@ -15,7 +18,11 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.level.Level;
 import vectorwing.farmersdelight.common.item.KnifeItem;
+
+import java.util.List;
 
 public final class BlueKnifeItem extends KnifeItem implements ICustomHandleItem {
     private final float attackSpeedModifier;
@@ -57,5 +64,13 @@ public final class BlueKnifeItem extends KnifeItem implements ICustomHandleItem 
     @Override
     public ItemStack getDefaultInstance() {
         return ToolUtils.setStickType(super.getDefaultInstance(), Items.STICK);
+    }
+
+    @Override
+    public void appendHoverText(ItemStack stack, Level level, List<Component> tooltip, TooltipFlag flag) {
+        super.appendHoverText(stack, level, tooltip, flag);
+        if (stack.is(SkiesItemTags.HORIZONITE_TOOLS)) {
+            tooltip.add(Component.literal(StringUtil.getAbilityText("gui.blue_skies.item.ability.fire")));
+        }
     }
 }

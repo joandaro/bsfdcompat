@@ -1,0 +1,20 @@
+{
+  "type": "bsfdcompat:knife_with_handle",
+  "category": "equipment",
+  "pattern": [
+    "M",
+    "S"
+  ],
+  "key": {
+    "M": {
+      "tag": "blue_skies:ingots/horizonite"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "bsfdcompat:horizonite_knife",
+    "count": 1
+  }
+}

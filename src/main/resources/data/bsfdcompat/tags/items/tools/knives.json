@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "bsfdcompat:aquite_knife",
+    "bsfdcompat:pyrope_knife",
+    "bsfdcompat:diopside_knife",
+    "bsfdcompat:charoite_knife",
+    "bsfdcompat:horizonite_knife"
+  ]
+}

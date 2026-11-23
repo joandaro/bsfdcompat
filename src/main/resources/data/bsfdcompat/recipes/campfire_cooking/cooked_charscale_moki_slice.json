@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {
+    "item": "bsfdcompat:charscale_moki_slice"
+  },
+  "result": "bsfdcompat:cooked_charscale_moki_slice",
+  "experience": 0.35,
+  "cookingtime": 600
+}

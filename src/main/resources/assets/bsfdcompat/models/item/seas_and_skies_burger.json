@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bsfdcompat:item/seas_and_skies_burger"
+  }
+}

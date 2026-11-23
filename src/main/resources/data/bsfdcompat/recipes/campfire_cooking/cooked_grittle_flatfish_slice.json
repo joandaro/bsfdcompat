@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {
+    "item": "bsfdcompat:grittle_flatfish_slice"
+  },
+  "result": "bsfdcompat:cooked_grittle_flatfish_slice",
+  "experience": 0.35,
+  "cookingtime": 600
+}

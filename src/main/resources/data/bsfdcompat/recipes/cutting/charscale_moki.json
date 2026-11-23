@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "blue_skies:charscale_moki"
+    }
+  ],
+  "tool": {
+    "tag": "bsfdcompat:tools/non_horizonite_knives"
+  },
+  "result": [
+    {
+      "item": "bsfdcompat:charscale_moki_slice",
+      "count": 2
+    }
+  ]
+}

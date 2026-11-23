@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "blue_skies:monitor_tail"
+    }
+  ],
+  "tool": {
+    "item": "bsfdcompat:horizonite_knife"
+  },
+  "result": [
+    {
+      "item": "bsfdcompat:cooked_monitor_tail_cuts",
+      "count": 2
+    }
+  ]
+}

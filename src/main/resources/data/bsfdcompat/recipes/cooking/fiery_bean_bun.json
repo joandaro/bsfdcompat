@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "forge:dough/wheat"
+    },
+    {
+      "item": "blue_skies:fiery_beans"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "bsfdcompat:fiery_bean_bun",
+    "count": 2
+  },
+  "cookingtime": 400,
+  "experience": 0.35,
+  "recipe_book_tab": "meals"
+}

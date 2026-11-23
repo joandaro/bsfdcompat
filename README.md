@@ -1,0 +1,1 @@
+blue skies x farmer's delight compat. mostly AI-generated mod. no guarantees on anything.

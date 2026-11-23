@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "blue_skies:venison"
+    }
+  ],
+  "tool": {
+    "item": "bsfdcompat:horizonite_knife"
+  },
+  "result": [
+    {
+      "item": "bsfdcompat:cooked_venison_cuts",
+      "count": 2
+    }
+  ]
+}

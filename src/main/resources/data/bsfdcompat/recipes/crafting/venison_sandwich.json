@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "tag": "forge:bread/wheat"
+    },
+    {
+      "tag": "forge:cooked_venison"
+    },
+    {
+      "item": "blue_skies:winter_leaves"
+    },
+    {
+      "item": "farmersdelight:onion"
+    }
+  ],
+  "result": {
+    "item": "bsfdcompat:venison_sandwich",
+    "count": 1
+  }
+}

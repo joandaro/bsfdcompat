@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "blue_skies:municipal_monkfish"
+    }
+  ],
+  "tool": {
+    "tag": "bsfdcompat:tools/non_horizonite_knives"
+  },
+  "result": [
+    {
+      "item": "bsfdcompat:municipal_monkfish_slice",
+      "count": 2
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "FSF",
+    "VWV",
+    "VVV"
+  ],
+  "key": {
+    "F": {
+      "tag": "blue_skies:ingots/falsite"
+    },
+    "S": {
+      "item": "minecraft:wooden_shovel"
+    },
+    "V": {
+      "tag": "blue_skies:ingots/ventium"
+    },
+    "W": {
+      "item": "blue_skies:ventium_water_bucket"
+    }
+  },
+  "result": {
+    "item": "bsfdcompat:blue_skies_cooking_pot"
+  }
+}

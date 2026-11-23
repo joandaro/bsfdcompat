@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "tag": "forge:bread/wheat"
+    },
+    {
+      "item": "blue_skies:solnut"
+    }
+  ],
+  "result": {
+    "item": "bsfdcompat:solnut_butter_toast",
+    "count": 1
+  }
+}

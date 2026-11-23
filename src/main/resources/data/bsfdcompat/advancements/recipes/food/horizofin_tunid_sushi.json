@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_slice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bsfdcompat:horizofin_tunid_slice"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bsfdcompat:crafting/horizofin_tunid_sushi"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_slice",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bsfdcompat:crafting/horizofin_tunid_sushi"
+    ]
+  },
+  "sends_telemetry_event": false
+}

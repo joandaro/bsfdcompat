@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_slice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bsfdcompat:grittle_flatfish_slice"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bsfdcompat:crafting/grittle_flatfish_sushi"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_slice",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bsfdcompat:crafting/grittle_flatfish_sushi"
+    ]
+  },
+  "sends_telemetry_event": false
+}

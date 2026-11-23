@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "blue_skies:cryo_root"
+    },
+    {
+      "tag": "forge:dough/wheat"
+    },
+    {
+      "tag": "forge:eggs"
+    }
+  ],
+  "result": {
+    "item": "bsfdcompat:cryo_root_fritter",
+    "count": 2
+  },
+  "cookingtime": 400,
+  "experience": 0.35,
+  "recipe_book_tab": "meals"
+}

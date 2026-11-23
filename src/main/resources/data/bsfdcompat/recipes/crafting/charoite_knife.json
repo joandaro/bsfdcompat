@@ -1,0 +1,20 @@
+{
+  "type": "bsfdcompat:knife_with_handle",
+  "category": "equipment",
+  "pattern": [
+    "M",
+    "S"
+  ],
+  "key": {
+    "M": {
+      "tag": "blue_skies:gems/charoite"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "bsfdcompat:charoite_knife",
+    "count": 1
+  }
+}

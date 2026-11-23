@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "FF",
+    "R "
+  ],
+  "key": {
+    "F": {
+      "item": "bsfdcompat:municipal_monkfish_slice"
+    },
+    "R": {
+      "item": "farmersdelight:cooked_rice"
+    }
+  },
+  "result": {
+    "item": "bsfdcompat:municipal_monkfish_sushi",
+    "count": 2
+  },
+  "show_notification": true
+}

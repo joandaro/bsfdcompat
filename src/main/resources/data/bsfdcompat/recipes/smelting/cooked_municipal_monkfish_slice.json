@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "bsfdcompat:municipal_monkfish_slice"
+  },
+  "result": "bsfdcompat:cooked_municipal_monkfish_slice",
+  "experience": 0.35,
+  "cookingtime": 200
+}

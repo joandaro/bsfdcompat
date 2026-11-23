@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "blue_skies:grittle_flatfish"
+    }
+  ],
+  "tool": {
+    "item": "bsfdcompat:horizonite_knife"
+  },
+  "result": [
+    {
+      "item": "bsfdcompat:cooked_grittle_flatfish_slice",
+      "count": 2
+    }
+  ]
+}

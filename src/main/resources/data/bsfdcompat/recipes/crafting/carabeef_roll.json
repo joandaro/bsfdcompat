@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "tag": "forge:bread/wheat"
+    },
+    {
+      "tag": "bsfdcompat:cooked_carabeef"
+    },
+    {
+      "item": "blue_skies:winter_leaves"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    }
+  ],
+  "result": {
+    "item": "bsfdcompat:carabeef_roll",
+    "count": 1
+  }
+}

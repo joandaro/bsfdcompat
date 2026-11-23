@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "blue_skies:winter_leaves"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "tag": "forge:vegetables"
+    }
+  ],
+  "result": {
+    "item": "bsfdcompat:winter_leaf_roll",
+    "count": 2
+  }
+}

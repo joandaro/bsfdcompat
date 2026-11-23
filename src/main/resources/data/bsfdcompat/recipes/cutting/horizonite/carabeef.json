@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "blue_skies:carabeef"
+    }
+  ],
+  "tool": {
+    "item": "bsfdcompat:horizonite_knife"
+  },
+  "result": [
+    {
+      "item": "bsfdcompat:cooked_carabeef_cuts",
+      "count": 2
+    }
+  ]
+}

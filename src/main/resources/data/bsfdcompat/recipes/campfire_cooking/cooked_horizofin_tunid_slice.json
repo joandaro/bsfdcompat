@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {
+    "item": "bsfdcompat:horizofin_tunid_slice"
+  },
+  "result": "bsfdcompat:cooked_horizofin_tunid_slice",
+  "experience": 0.35,
+  "cookingtime": 600
+}

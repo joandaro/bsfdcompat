@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "FF",
+    "R "
+  ],
+  "key": {
+    "F": {
+      "item": "bsfdcompat:grittle_flatfish_slice"
+    },
+    "R": {
+      "item": "farmersdelight:cooked_rice"
+    }
+  },
+  "result": {
+    "item": "bsfdcompat:grittle_flatfish_sushi",
+    "count": 2
+  },
+  "show_notification": true
+}

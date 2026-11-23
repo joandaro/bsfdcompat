@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:raw_beef",
+    "#forge:raw_venison",
+    "blue_skies:monitor_tail",
+    "bsfdcompat:monitor_tail_cuts"
+  ]
+}

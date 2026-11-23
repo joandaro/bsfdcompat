@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "tag": "bsfdcompat:cooked_fishes"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    }
+  ],
+  "result": {
+    "item": "bsfdcompat:dawn_onigiri",
+    "count": 2
+  }
+}

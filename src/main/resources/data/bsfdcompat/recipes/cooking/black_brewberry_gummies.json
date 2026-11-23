@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "blue_skies:black_brewberry"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "result": {
+    "item": "bsfdcompat:black_brewberry_gummies",
+    "count": 4
+  },
+  "cookingtime": 400,
+  "experience": 0.35,
+  "recipe_book_tab": "misc"
+}

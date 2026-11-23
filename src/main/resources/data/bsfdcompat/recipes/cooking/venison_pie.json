@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "farmersdelight:pie_crust"
+    },
+    {
+      "tag": "forge:raw_venison"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "blue_skies:cryo_root"
+    }
+  ],
+  "result": {
+    "item": "bsfdcompat:venison_pie",
+    "count": 1
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 800,
+  "experience": 1.0,
+  "recipe_book_tab": "meals"
+}

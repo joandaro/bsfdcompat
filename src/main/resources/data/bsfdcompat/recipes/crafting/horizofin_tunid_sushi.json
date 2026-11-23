@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "FF",
+    "R "
+  ],
+  "key": {
+    "F": {
+      "item": "bsfdcompat:horizofin_tunid_slice"
+    },
+    "R": {
+      "item": "farmersdelight:cooked_rice"
+    }
+  },
+  "result": {
+    "item": "bsfdcompat:horizofin_tunid_sushi",
+    "count": 2
+  },
+  "show_notification": true
+}

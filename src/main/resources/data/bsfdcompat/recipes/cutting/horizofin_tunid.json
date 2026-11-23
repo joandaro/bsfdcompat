@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "blue_skies:horizofin_tunid"
+    }
+  ],
+  "tool": {
+    "tag": "bsfdcompat:tools/non_horizonite_knives"
+  },
+  "result": [
+    {
+      "item": "bsfdcompat:horizofin_tunid_slice",
+      "count": 2
+    }
+  ]
+}

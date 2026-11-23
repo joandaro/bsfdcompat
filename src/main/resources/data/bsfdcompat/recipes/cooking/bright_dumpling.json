@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "forge:dough/wheat"
+    },
+    {
+      "tag": "bsfdcompat:raw_fishes"
+    },
+    {
+      "item": "blue_skies:winter_leaves"
+    },
+    {
+      "item": "farmersdelight:onion"
+    }
+  ],
+  "result": {
+    "item": "bsfdcompat:bright_dumpling",
+    "count": 2
+  },
+  "cookingtime": 400,
+  "experience": 0.35,
+  "recipe_book_tab": "meals"
+}

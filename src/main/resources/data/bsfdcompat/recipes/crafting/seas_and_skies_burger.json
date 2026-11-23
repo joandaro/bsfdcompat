@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "tag": "forge:bread/wheat"
+    },
+    {
+      "tag": "bsfdcompat:cooked_fishes"
+    },
+    {
+      "item": "blue_skies:winter_leaves"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    }
+  ],
+  "result": {
+    "item": "bsfdcompat:seas_and_skies_burger",
+    "count": 1
+  }
+}

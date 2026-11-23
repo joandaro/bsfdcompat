@@ -1,0 +1,20 @@
+{
+  "type": "bsfdcompat:knife_with_handle",
+  "category": "equipment",
+  "pattern": [
+    "M",
+    "S"
+  ],
+  "key": {
+    "M": {
+      "tag": "blue_skies:gems/aquite"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "bsfdcompat:aquite_knife",
+    "count": 1
+  }
+}

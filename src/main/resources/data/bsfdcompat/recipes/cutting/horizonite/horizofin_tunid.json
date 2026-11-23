@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "blue_skies:horizofin_tunid"
+    }
+  ],
+  "tool": {
+    "item": "bsfdcompat:horizonite_knife"
+  },
+  "result": [
+    {
+      "item": "bsfdcompat:cooked_horizofin_tunid_slice",
+      "count": 2
+    }
+  ]
+}

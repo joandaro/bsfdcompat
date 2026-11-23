@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "blue_skies:pink_brewberry"
+    },
+    {
+      "tag": "forge:nuts"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "bsfdcompat:pink_brewberry_macaron",
+    "count": 2
+  }
+}

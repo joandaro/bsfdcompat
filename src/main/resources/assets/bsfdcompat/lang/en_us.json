@@ -44,5 +44,6 @@
   "item.bsfdcompat.horizonite_knife": "Horizonite Knife",
   "block.bsfdcompat.blue_skies_cooking_pot": "Ventium Cooking Pot",
   "container.bsfdcompat.blue_skies_cooking_pot": "Ventium Cooking Pot",
-  "effect.bsfdcompat.sky_adaptation": "Sky's Nourishment"
+  "effect.bsfdcompat.sky_adaptation": "Sky's Nourishment",
+  "effect.bsfdcompat.sky_adaptation.desc": "You're infused with raw energy of the Skies!"
 }

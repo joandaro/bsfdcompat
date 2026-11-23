@@ -11,7 +11,7 @@
       "tag": "blue_skies:ingots/falsite"
     },
     "S": {
-      "item": "minecraft:wooden_shovel"
+      "tag": "blue_skies:tools/wooden_shovels"
     },
     "V": {
       "tag": "blue_skies:ingots/ventium"

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "blue_skies:snowcap_mushroom"
+    },
+    {
+      "item": "blue_skies:baneful_mushroom"
+    },
+    {
+      "item": "blue_skies:black_brewberry"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "bsfdcompat:detoxified_blue_mushroom_stew",
+    "count": 1
+  }
+}

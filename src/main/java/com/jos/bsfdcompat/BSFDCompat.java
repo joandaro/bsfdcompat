@@ -14,6 +14,8 @@ public final class BSFDCompat {
         IEventBus modEventBus = context.getModEventBus();
         ModEffects.EFFECTS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
+        MushroomColonies.BLOCKS.register(modEventBus);
+        MushroomColonies.ITEMS.register(modEventBus);
         RawCuts.ITEMS.register(modEventBus);
         KitchenRegistry.BLOCKS.register(modEventBus);
         KitchenRegistry.BLOCK_ENTITIES.register(modEventBus);
@@ -22,6 +24,8 @@ public final class BSFDCompat {
 
         modEventBus.addListener(RawCuts::addCreativeTabContents);
         modEventBus.addListener(ModItems::addCreativeTabContents);
+        modEventBus.addListener(MushroomColonies::addCreativeTabContents);
+        modEventBus.addListener(MushroomColonies::commonSetup);
         modEventBus.addListener(KitchenRegistry::addCreativeTabContents);
     }
 }

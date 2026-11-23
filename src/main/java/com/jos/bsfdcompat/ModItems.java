@@ -2,6 +2,7 @@ package com.jos.bsfdcompat;
 
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -29,7 +30,19 @@ public final class ModItems {
     public static final RegistryObject<Item> CARABEEF_ROLL = food("carabeef_roll", 10, 0.8F);
     public static final RegistryObject<Item> VENISON_PIE = meal("venison_pie", 10, 0.8F, 180);
     public static final RegistryObject<Item> GLAZED_MONITOR_TAIL = meal("glazed_monitor_tail", 10, 0.8F, 180);
-    public static final RegistryObject<Item> BLUE_MUSHROOM_STEW = meal("blue_mushroom_stew", 6, 0.6F, 180);
+    public static final RegistryObject<Item> BLUE_MUSHROOM_STEW = ITEMS.register("blue_mushroom_stew",
+            () -> new AdaptationFoodItem(new Item.Properties()
+                    .food(new FoodProperties.Builder()
+                            .nutrition(6)
+                            .saturationMod(0.6F)
+                            .effect(() -> new MobEffectInstance(ModEffects.SKY_ADAPTATION.get(),
+                                    180 * 20, 0, false, false, true), 1.0F)
+                            .effect(() -> new MobEffectInstance(MobEffects.POISON, 60 * 20, 0), 1.0F)
+                            .build())
+                    .craftRemainder(Items.BOWL)
+                    .stacksTo(16)));
+    public static final RegistryObject<Item> DETOXIFIED_BLUE_MUSHROOM_STEW =
+            meal("detoxified_blue_mushroom_stew", 6, 0.6F, 180);
     public static final RegistryObject<Item> SEAS_AND_SKIES_BURGER = food("seas_and_skies_burger", 10, 0.8F);
     public static final RegistryObject<Item> BRIGHT_DUMPLING = food("bright_dumpling", 5, 0.6F);
     public static final RegistryObject<Item> DAWN_ONIGIRI = food("dawn_onigiri", 7, 0.7F);

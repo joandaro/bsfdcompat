@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "blue_skies:snowcap_mushroom"
+    },
+    {
+      "item": "blue_skies:baneful_mushroom"
+    },
+    {
+      "item": "blue_skies:black_brewberry"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "bsfdcompat:detoxified_blue_mushroom_stew",
+    "count": 1
+  }
+}

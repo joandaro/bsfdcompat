@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bsfdcompat:item/detoxified_blue_mushroom_stew"
+  }
+}

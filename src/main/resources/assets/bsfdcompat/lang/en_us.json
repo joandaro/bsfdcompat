@@ -46,5 +46,8 @@
   "block.bsfdcompat.blue_skies_cooking_pot": "Ventium Cooking Pot",
   "container.bsfdcompat.blue_skies_cooking_pot": "Ventium Cooking Pot",
   "effect.bsfdcompat.sky_adaptation": "Sky's Nourishment",
-  "effect.bsfdcompat.sky_adaptation.desc": "You're infused with raw energy of the Skies!"
+  "effect.bsfdcompat.sky_adaptation.desc": "You're infused with raw energy of the Skies!",
+  "block.bsfdcompat.snowcap_mushroom_colony": "Snowcap Mushroom Colony",
+  "block.bsfdcompat.baneful_mushroom_colony": "Baneful Mushroom Colony",
+  "item.bsfdcompat.detoxified_blue_mushroom_stew": "Detoxified Blue Mushroom Stew"
 }

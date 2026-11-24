@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bsfdcompat:fiery_bean_crate"
+    }
+  ],
+  "result": {
+    "item": "blue_skies:fiery_beans",
+    "count": 9
+  }
+}

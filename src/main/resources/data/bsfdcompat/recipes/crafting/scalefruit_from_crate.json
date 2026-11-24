@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bsfdcompat:scalefruit_crate"
+    }
+  ],
+  "result": {
+    "item": "blue_skies:scalefruit",
+    "count": 9
+  }
+}

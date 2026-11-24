@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "blue_skies:fiery_beans"
+    }
+  },
+  "result": {
+    "item": "bsfdcompat:fiery_bean_crate",
+    "count": 1
+  },
+  "show_notification": true
+}

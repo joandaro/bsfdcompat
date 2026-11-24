@@ -51,10 +51,16 @@
   "block.bsfdcompat.baneful_mushroom_colony": "Baneful Mushroom Colony",
   "item.bsfdcompat.detoxified_blue_mushroom_stew": "Detoxified Blue Mushroom Stew",
   "block.bsfdcompat.stardust_shepherds_pie_block": "Stardust Shepherd's Pie",
-  "item.bsfdcompat.stardust_shepherds_pie": "Stardust Shepherd's Pie",
+  "item.bsfdcompat.stardust_shepherds_pie": "Plate of Stardust Shepherd's Pie",
   "block.bsfdcompat.comet_honey_glazed_monitor_tail_block": "Comet-Glazed Monitor Tail",
-  "item.bsfdcompat.comet_honey_glazed_monitor_tail": "Comet-Glazed Monitor Tail",
+  "item.bsfdcompat.comet_honey_glazed_monitor_tail": "Plate of Comet-Glazed Monitor Tail",
   "tooltip.bsfdcompat.feast.servings": "%s/%s portions remaining",
   "tooltip.bsfdcompat.feast.controls": "Pick up with empty hand left-click.",
-  "message.bsfdcompat.feast.hands_full": "You can't eat this with both hands occupied."
+  "message.bsfdcompat.feast.hands_full": "You can't eat this with both hands occupied.",
+  "block.bsfdcompat.cryo_root_crate": "Cryo Root Crate",
+  "block.bsfdcompat.fiery_bean_crate": "Fiery Bean Crate",
+  "block.bsfdcompat.pine_fruit_crate": "Pine Fruit Crate",
+  "block.bsfdcompat.scalefruit_crate": "Scalefruit Crate",
+  "block.bsfdcompat.solnut_crate": "Solnut Crate",
+  "block.bsfdcompat.winter_leaf_crate": "Winter Leaf Crate"
 }

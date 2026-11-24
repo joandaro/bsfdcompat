@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blue_skies:pine_fruit"
+            ]
+          }
+        ]
+      }
+    },
+    "has_crate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bsfdcompat:pine_fruit_crate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crop",
+      "has_crate"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bsfdcompat:crafting/pine_fruit_crate",
+      "bsfdcompat:crafting/pine_fruit_from_crate"
+    ]
+  },
+  "sends_telemetry_event": false
+}

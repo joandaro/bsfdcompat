@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bsfdcompat:cryo_root_crate"
+    }
+  ],
+  "result": {
+    "item": "blue_skies:cryo_root",
+    "count": 9
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "blue_skies:cryo_root"
+    }
+  },
+  "result": {
+    "item": "bsfdcompat:cryo_root_crate",
+    "count": 1
+  },
+  "show_notification": true
+}

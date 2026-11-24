@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "blue_skies:solnut"
+    }
+  },
+  "result": {
+    "item": "bsfdcompat:solnut_crate",
+    "count": 1
+  },
+  "show_notification": true
+}

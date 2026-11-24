@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "bsfdcompat:cryo_root_crate",
+    "bsfdcompat:fiery_bean_crate",
+    "bsfdcompat:pine_fruit_crate",
+    "bsfdcompat:scalefruit_crate",
+    "bsfdcompat:solnut_crate",
+    "bsfdcompat:winter_leaf_crate"
+  ]
+}

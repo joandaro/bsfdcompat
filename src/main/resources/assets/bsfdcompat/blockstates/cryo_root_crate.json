@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bsfdcompat:block/cryo_root_crate"
+    }
+  }
+}

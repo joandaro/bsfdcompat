@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blue_skies:cryo_root"
+            ]
+          }
+        ]
+      }
+    },
+    "has_crate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bsfdcompat:cryo_root_crate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crop",
+      "has_crate"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bsfdcompat:crafting/cryo_root_crate",
+      "bsfdcompat:crafting/cryo_root_from_crate"
+    ]
+  },
+  "sends_telemetry_event": false
+}

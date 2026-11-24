@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "blue_skies:pine_fruit"
+    }
+  },
+  "result": {
+    "item": "bsfdcompat:pine_fruit_crate",
+    "count": 1
+  },
+  "show_notification": true
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blue_skies:fiery_beans"
+            ]
+          }
+        ]
+      }
+    },
+    "has_crate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bsfdcompat:fiery_bean_crate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crop",
+      "has_crate"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bsfdcompat:crafting/fiery_bean_crate",
+      "bsfdcompat:crafting/fiery_beans_from_crate"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bsfdcompat:solnut_crate"
+    }
+  ],
+  "result": {
+    "item": "blue_skies:solnut",
+    "count": 9
+  }
+}

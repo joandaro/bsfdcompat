@@ -1,0 +1,25 @@
+{
+  "parent": "bsfdcompat:block/stardust_shepherds_pie_block_stage0",
+  "overrides": [
+    {
+      "predicate": { "bsfdcompat:servings": 0.0 },
+      "model": "bsfdcompat:block/stardust_shepherds_pie_block_leftovers"
+    },
+    {
+      "predicate": { "bsfdcompat:servings": 0.25 },
+      "model": "bsfdcompat:block/stardust_shepherds_pie_block_stage3"
+    },
+    {
+      "predicate": { "bsfdcompat:servings": 0.5 },
+      "model": "bsfdcompat:block/stardust_shepherds_pie_block_stage2"
+    },
+    {
+      "predicate": { "bsfdcompat:servings": 0.75 },
+      "model": "bsfdcompat:block/stardust_shepherds_pie_block_stage1"
+    },
+    {
+      "predicate": { "bsfdcompat:servings": 1.0 },
+      "model": "bsfdcompat:block/stardust_shepherds_pie_block_stage0"
+    }
+  ]
+}

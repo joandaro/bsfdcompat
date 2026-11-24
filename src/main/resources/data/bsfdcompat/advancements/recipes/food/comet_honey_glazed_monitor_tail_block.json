@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_meat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blue_skies:cooked_monitor_tail"
+            ]
+          }
+        ]
+      }
+    },
+    "has_blue_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blue_skies:comet_berries"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bsfdcompat:crafting/comet_honey_glazed_monitor_tail_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_meat",
+      "has_blue_ingredient",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bsfdcompat:crafting/comet_honey_glazed_monitor_tail_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "blue_skies:comet_berries"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "blue_skies:comet_berries"
+    },
+    {
+      "item": "blue_skies:comet_berries"
+    },
+    {
+      "item": "blue_skies:cooked_monitor_tail"
+    },
+    {
+      "item": "blue_skies:comet_berries"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    }
+  ],
+  "result": {
+    "item": "bsfdcompat:comet_honey_glazed_monitor_tail_block",
+    "count": 1
+  }
+}

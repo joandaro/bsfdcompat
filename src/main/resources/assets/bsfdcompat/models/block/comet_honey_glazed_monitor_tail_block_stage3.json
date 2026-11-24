@@ -1,0 +1,469 @@
+{
+  "format_version": "1.9.0",
+  "credit": "Made with Blockbench",
+  "parent": "block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "tray": "bsfdcompat:block/feast_tray",
+    "particle": "bsfdcompat:block/comet_honey_glazed_monitor_tail",
+    "details": "bsfdcompat:block/comet_honey_glazed_monitor_tail_details",
+    "monitor_tail": "bsfdcompat:block/comet_honey_glazed_monitor_tail",
+    "leftovers": "bsfdcompat:block/comet_honey_glazed_monitor_tail_leftovers"
+  },
+  "elements": [
+    {
+      "name": "tray",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        2,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            14,
+            15,
+            16
+          ],
+          "texture": "#tray"
+        },
+        "east": {
+          "uv": [
+            1,
+            14,
+            15,
+            16
+          ],
+          "texture": "#tray"
+        },
+        "south": {
+          "uv": [
+            1,
+            14,
+            15,
+            16
+          ],
+          "texture": "#tray"
+        },
+        "west": {
+          "uv": [
+            1,
+            14,
+            15,
+            16
+          ],
+          "texture": "#tray"
+        },
+        "up": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#leftovers"
+        },
+        "down": {
+          "uv": [
+            1,
+            0,
+            15,
+            14
+          ],
+          "texture": "#tray",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "tail",
+      "from": [
+        0,
+        0,
+        13
+      ],
+      "to": [
+        6,
+        5,
+        17
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          -5,
+          -2,
+          4
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1,
+            7,
+            6
+          ],
+          "texture": "#monitor_tail"
+        },
+        "east": {
+          "uv": [
+            6,
+            9,
+            10,
+            14
+          ],
+          "texture": "#monitor_tail"
+        },
+        "south": {
+          "uv": [
+            1,
+            1,
+            7,
+            6
+          ],
+          "texture": "#monitor_tail"
+        },
+        "west": {
+          "uv": [
+            13,
+            7,
+            9,
+            12
+          ],
+          "texture": "#monitor_tail"
+        },
+        "up": {
+          "uv": [
+            0,
+            12,
+            6,
+            16
+          ],
+          "texture": "#monitor_tail"
+        }
+      }
+    },
+    {
+      "name": "tail_tip",
+      "from": [
+        6,
+        2,
+        10
+      ],
+      "to": [
+        10,
+        5,
+        13
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          0,
+          -2
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            1,
+            6,
+            4
+          ],
+          "texture": "#monitor_tail"
+        },
+        "east": {
+          "uv": [
+            16,
+            15,
+            13,
+            12
+          ],
+          "texture": "#monitor_tail"
+        },
+        "south": {
+          "uv": [
+            10,
+            10,
+            14,
+            13
+          ],
+          "texture": "#monitor_tail",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            9,
+            0,
+            12,
+            3
+          ],
+          "texture": "#monitor_tail"
+        },
+        "up": {
+          "uv": [
+            6,
+            11,
+            10,
+            14
+          ],
+          "texture": "#monitor_tail"
+        },
+        "down": {
+          "uv": [
+            7,
+            2,
+            9,
+            5
+          ],
+          "rotation": 180,
+          "texture": "#details"
+        }
+      }
+    },
+    {
+      "name": "full_berry",
+      "from": [
+        5,
+        1,
+        3
+      ],
+      "to": [
+        7,
+        3,
+        5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          3,
+          -1,
+          -2
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            15,
+            0,
+            13
+          ],
+          "rotation": 270,
+          "texture": "#details"
+        },
+        "east": {
+          "uv": [
+            0,
+            13,
+            2,
+            15
+          ],
+          "texture": "#details"
+        },
+        "south": {
+          "uv": [
+            0,
+            13,
+            2,
+            15
+          ],
+          "texture": "#details"
+        },
+        "west": {
+          "uv": [
+            0,
+            13,
+            2,
+            15
+          ],
+          "texture": "#details"
+        },
+        "up": {
+          "uv": [
+            0,
+            11,
+            2,
+            13
+          ],
+          "texture": "#details"
+        }
+      }
+    },
+    {
+      "name": "leaf",
+      "from": [
+        2,
+        2,
+        5
+      ],
+      "to": [
+        5,
+        5,
+        5
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "x",
+        "origin": [
+          3,
+          2,
+          5
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            11,
+            5,
+            14
+          ],
+          "texture": "#details"
+        },
+        "south": {
+          "uv": [
+            5,
+            11,
+            2,
+            14
+          ],
+          "texture": "#details"
+        }
+      }
+    },
+    {
+      "name": "full_berry",
+      "from": [
+        12,
+        1,
+        9
+      ],
+      "to": [
+        14,
+        3,
+        11
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          -1,
+          0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            13,
+            2,
+            15
+          ],
+          "texture": "#details"
+        },
+        "east": {
+          "uv": [
+            0,
+            13,
+            2,
+            15
+          ],
+          "texture": "#details"
+        },
+        "south": {
+          "uv": [
+            2,
+            15,
+            0,
+            13
+          ],
+          "rotation": 270,
+          "texture": "#details"
+        },
+        "west": {
+          "uv": [
+            0,
+            13,
+            2,
+            15
+          ],
+          "texture": "#details"
+        },
+        "up": {
+          "uv": [
+            0,
+            11,
+            2,
+            13
+          ],
+          "rotation": 180,
+          "texture": "#details"
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "stage3",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "color": 0,
+      "children": [
+        0,
+        {
+          "name": "monitor_tail",
+          "origin": [
+            0,
+            0,
+            0
+          ],
+          "color": 0,
+          "children": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "west_berries",
+          "origin": [
+            18,
+            2,
+            -12
+          ],
+          "color": 0,
+          "children": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "east_berries",
+          "origin": [
+            29,
+            2,
+            -6
+          ],
+          "color": 0,
+          "children": [
+            5
+          ]
+        }
+      ]
+    }
+  ]
+}

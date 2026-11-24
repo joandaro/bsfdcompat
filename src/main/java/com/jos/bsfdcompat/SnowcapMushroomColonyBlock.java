@@ -34,7 +34,7 @@ import vectorwing.farmersdelight.common.block.MushroomColonyBlock;
 public final class SnowcapMushroomColonyBlock extends MushroomColonyBlock {
     public static final EnumProperty<DoubleBlockHalf> HALF = DoublePlantBlock.HALF;
     private static final VoxelShape LOWER_SHAPE = Block.box(3, 0, 3, 13, 16, 13);
-    private static final VoxelShape UPPER_SHAPE = Block.box(1, 0, 1, 15, 16, 15);
+    private static final VoxelShape UPPER_SHAPE = Block.box(3, 0, 3, 13, 13, 13);
 
     public SnowcapMushroomColonyBlock(BlockBehaviour.Properties properties, Supplier<Item> mushroomType) {
         super(properties, mushroomType);
@@ -189,7 +189,7 @@ public final class SnowcapMushroomColonyBlock extends MushroomColonyBlock {
     public boolean startColony(Level level, BlockPos pos) {
         BlockState oldLower = level.getBlockState(pos);
         BlockState oldUpper = level.getBlockState(pos.above());
-        BlockState lower = defaultBlockState();
+        BlockState lower = defaultBlockState().setValue(COLONY_AGE, 3);
         int deferredUpdates = Block.UPDATE_CLIENTS | Block.UPDATE_KNOWN_SHAPE;
         if (!level.setBlock(pos, lower, deferredUpdates)) {
             return false;

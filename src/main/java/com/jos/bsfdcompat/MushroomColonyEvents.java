@@ -15,6 +15,7 @@ import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import vectorwing.farmersdelight.common.registry.ModBlocks;
+import vectorwing.farmersdelight.common.block.MushroomColonyBlock;
 
 /** Starts colonies during rich-soil growth or manual bonemeal, without modifying Farmer's Delight. */
 @Mod.EventBusSubscriber(modid = BSFDCompat.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
@@ -58,7 +59,10 @@ public final class MushroomColonyEvents {
             if (target.colony() instanceof SnowcapMushroomColonyBlock tallColony) {
                 return tallColony.startColony(level, target.pos());
             }
-            if (!level.setBlock(target.pos(), target.colony().defaultBlockState(), Block.UPDATE_ALL)) {
+            if (!level.setBlock(target.pos(),
+                    target.colony().defaultBlockState()
+                            .setValue(MushroomColonyBlock.COLONY_AGE, 3),
+                    Block.UPDATE_ALL)) {
                 return false;
             }
         }

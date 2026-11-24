@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    },
+    [
+      { "item": "blue_skies:cooked_carabeef" },
+      { "item": "blue_skies:cooked_venison" },
+      { "item": "bsfdcompat:cooked_carabeef_cuts" },
+      { "item": "bsfdcompat:cooked_venison_cuts" }
+    ],
+    [
+      { "item": "blue_skies:cooked_carabeef" },
+      { "item": "blue_skies:cooked_venison" },
+      { "item": "bsfdcompat:cooked_carabeef_cuts" },
+      { "item": "bsfdcompat:cooked_venison_cuts" }
+    ],
+    [
+      { "item": "blue_skies:cooked_carabeef" },
+      { "item": "blue_skies:cooked_venison" },
+      { "item": "bsfdcompat:cooked_carabeef_cuts" },
+      { "item": "bsfdcompat:cooked_venison_cuts" }
+    ],
+    {
+      "item": "blue_skies:cryo_root"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "blue_skies:cryo_root"
+    }
+  ],
+  "result": {
+    "item": "bsfdcompat:stardust_shepherds_pie_block",
+    "count": 1
+  }
+}

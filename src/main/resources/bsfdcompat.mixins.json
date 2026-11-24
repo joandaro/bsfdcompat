@@ -6,7 +6,8 @@
   "mixins": [
     "BlueSkiesPlayerHooksMixin",
     "BlueSkiesEntityHooksMixin",
-    "BlueSkiesBanefulMushroomMixin"
+    "BlueSkiesBanefulMushroomMixin",
+    "BlueSkiesSaplingVillageMixin"
   ],
   "injectors": {
     "defaultRequire": 1

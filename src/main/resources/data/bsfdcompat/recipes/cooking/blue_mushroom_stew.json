@@ -7,7 +7,7 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "blue_skies:snowcap_mushroom"
+      "tag": "bsfdcompat:snowcap_mushrooms"
     },
     {
       "item": "blue_skies:baneful_mushroom"

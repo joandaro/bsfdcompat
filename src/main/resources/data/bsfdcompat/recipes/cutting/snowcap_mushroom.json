@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "blue_skies:snowcap_mushroom"
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:tool_action",
+      "action": "knife_dig"
+    },
+    {
+      "tag": "forge:tools/knives"
+    }
+  ],
+  "result": [
+    {
+      "item": "blue_skies:snowcap_pinhead",
+      "count": 2
+    }
+  ]
+}

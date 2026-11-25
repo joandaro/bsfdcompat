@@ -1,5 +1,7 @@
-package com.jos.bsfdcompat;
+package com.jos.bsfdcompat.registry;
 
+import com.jos.bsfdcompat.item.AdaptationFoodItem;
+import com.jos.bsfdcompat.BSFDCompat;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;

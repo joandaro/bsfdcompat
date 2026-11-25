@@ -1,5 +1,6 @@
-package com.jos.bsfdcompat;
+package com.jos.bsfdcompat.block;
 
+import com.jos.bsfdcompat.registry.KitchenRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;

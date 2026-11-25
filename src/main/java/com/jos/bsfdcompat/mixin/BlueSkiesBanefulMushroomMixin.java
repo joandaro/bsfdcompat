@@ -1,6 +1,6 @@
 package com.jos.bsfdcompat.mixin;
 
-import com.jos.bsfdcompat.MushroomColonyEvents;
+import com.jos.bsfdcompat.event.MushroomColonyEvents;
 import com.legacy.blue_skies.blocks.natural.BanefulMushroomBlock;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;

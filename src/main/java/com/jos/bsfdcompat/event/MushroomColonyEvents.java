@@ -1,5 +1,8 @@
-package com.jos.bsfdcompat;
+package com.jos.bsfdcompat.event;
 
+import com.jos.bsfdcompat.BSFDCompat;
+import com.jos.bsfdcompat.block.SnowcapMushroomColonyBlock;
+import com.jos.bsfdcompat.registry.MushroomColonies;
 import com.legacy.blue_skies.registries.SkiesBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;

@@ -1,5 +1,6 @@
-package com.jos.bsfdcompat;
+package com.jos.bsfdcompat.block;
 
+import com.jos.bsfdcompat.registry.KitchenRegistry;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.ContainerData;

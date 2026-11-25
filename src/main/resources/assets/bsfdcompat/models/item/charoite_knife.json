@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "bsfdcompat:item/charoite_knife"
+    "layer0": "bsfdcompat:item/knife_handle",
+    "layer1": "bsfdcompat:item/charoite_knife_blade"
   }
 }

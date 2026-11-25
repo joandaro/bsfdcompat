@@ -1,5 +1,6 @@
-package com.jos.bsfdcompat;
+package com.jos.bsfdcompat.item;
 
+import com.jos.bsfdcompat.registry.ModEffects;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.player.Player;

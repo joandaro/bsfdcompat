@@ -1,4 +1,4 @@
-package com.jos.bsfdcompat;
+package com.jos.bsfdcompat.item;
 
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
@@ -23,8 +23,9 @@ import net.minecraft.world.level.Level;
 import vectorwing.farmersdelight.common.item.KnifeItem;
 
 import java.util.List;
+import com.legacy.blue_skies.items.util.IFalsiteItem;
 
-public final class BlueKnifeItem extends KnifeItem implements ICustomHandleItem {
+public final class BlueKnifeItem extends KnifeItem implements ICustomHandleItem, IFalsiteItem {
     private final float attackSpeedModifier;
 
     public BlueKnifeItem(Tier tier, float damageModifier, float attackSpeedModifier, Properties properties) {
@@ -72,5 +73,19 @@ public final class BlueKnifeItem extends KnifeItem implements ICustomHandleItem 
         if (stack.is(SkiesItemTags.HORIZONITE_TOOLS)) {
             tooltip.add(Component.literal(StringUtil.getAbilityText("gui.blue_skies.item.ability.fire")));
         }
+    }
+    @Override
+    public int getBarColor(ItemStack stack) {
+        return falsiteBarColor(stack, super.getBarColor(stack));
+    }
+
+    @Override
+    public boolean isBarVisible(ItemStack stack) {
+        return falsiteBarVisible(stack, super.isBarVisible(stack));
+    }
+
+    @Override
+    public int getBarWidth(ItemStack stack) {
+        return falsiteBarWidth(stack, super.getBarWidth(stack));
     }
 }

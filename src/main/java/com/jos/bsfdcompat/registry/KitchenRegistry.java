@@ -1,5 +1,10 @@
-package com.jos.bsfdcompat;
+package com.jos.bsfdcompat.registry;
 
+import com.jos.bsfdcompat.*;
+import com.jos.bsfdcompat.block.BlueCookingPotBlock;
+import com.jos.bsfdcompat.block.BlueCookingPotBlockEntity;
+import com.jos.bsfdcompat.item.BlueKnifeItem;
+import com.jos.bsfdcompat.item.BlueKnifeRecipe;
 import com.legacy.blue_skies.items.util.SkiesItemTier;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Tier;

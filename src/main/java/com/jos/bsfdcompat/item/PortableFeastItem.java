@@ -1,7 +1,9 @@
-package com.jos.bsfdcompat;
+package com.jos.bsfdcompat.item;
 
 import java.util.List;
 import javax.annotation.Nullable;
+
+import com.jos.bsfdcompat.block.PortableFeastBlock;
 import net.minecraft.ChatFormatting;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;

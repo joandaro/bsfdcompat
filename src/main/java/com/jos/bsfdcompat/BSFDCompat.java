@@ -1,5 +1,6 @@
 package com.jos.bsfdcompat;
 
+import com.jos.bsfdcompat.registry.*;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -22,7 +23,7 @@ public final class BSFDCompat {
         context.registerConfig(ModConfig.Type.SERVER, CONFIG_SPEC);
         IEventBus modEventBus = context.getModEventBus();
         ModEffects.EFFECTS.register(modEventBus);
-        ModItems.ITEMS.register(modEventBus);
+        FoodItems.ITEMS.register(modEventBus);
         FeastRegistry.BLOCKS.register(modEventBus);
         FeastRegistry.ITEMS.register(modEventBus);
         CropCrates.BLOCKS.register(modEventBus);
@@ -36,7 +37,7 @@ public final class BSFDCompat {
         KitchenRegistry.RECIPE_SERIALIZERS.register(modEventBus);
 
         modEventBus.addListener(RawCuts::addCreativeTabContents);
-        modEventBus.addListener(ModItems::addCreativeTabContents);
+        modEventBus.addListener(FoodItems::addCreativeTabContents);
         modEventBus.addListener(FeastRegistry::addCreativeTabContents);
         modEventBus.addListener(CropCrates::addCreativeTabContents);
         modEventBus.addListener(MushroomColonies::addCreativeTabContents);

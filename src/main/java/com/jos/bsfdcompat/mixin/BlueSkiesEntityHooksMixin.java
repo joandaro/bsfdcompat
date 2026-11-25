@@ -1,6 +1,6 @@
 package com.jos.bsfdcompat.mixin;
 
-import com.jos.bsfdcompat.ModEffects;
+import com.jos.bsfdcompat.registry.ModEffects;
 import com.legacy.blue_skies.entities.util.SkiesEntityHooks;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.player.Player;

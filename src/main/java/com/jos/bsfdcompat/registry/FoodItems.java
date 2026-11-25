@@ -1,5 +1,7 @@
-package com.jos.bsfdcompat;
+package com.jos.bsfdcompat.registry;
 
+import com.jos.bsfdcompat.item.AdaptationFoodItem;
+import com.jos.bsfdcompat.BSFDCompat;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -10,7 +12,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public final class ModItems {
+public final class FoodItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, BSFDCompat.MODID);
 
@@ -28,6 +30,7 @@ public final class ModItems {
     public static final RegistryObject<Item> FIERY_BEAN_BUN = food("fiery_bean_bun", 6, 0.6F);
     public static final RegistryObject<Item> CRYO_ROOT_FRITTER = food("cryo_root_fritter", 5, 0.5F);
     public static final RegistryObject<Item> CARABEEF_ROLL = food("carabeef_roll", 10, 0.8F);
+    public static final RegistryObject<Item> VENISON_SANDWICH = food("venison_sandwich", 10, 0.8F);
     public static final RegistryObject<Item> VENISON_PIE = meal("venison_pie", 10, 0.8F, 180);
     public static final RegistryObject<Item> GLAZED_MONITOR_TAIL = meal("glazed_monitor_tail", 10, 0.8F, 180);
     public static final RegistryObject<Item> BLUE_MUSHROOM_STEW = ITEMS.register("blue_mushroom_stew",
@@ -50,9 +53,8 @@ public final class ModItems {
     public static final RegistryObject<Item> GRITTLE_FLATFISH_SUSHI = food("grittle_flatfish_sushi", 6, 0.6F);
     public static final RegistryObject<Item> MUNICIPAL_MONKFISH_SUSHI = food("municipal_monkfish_sushi", 6, 0.6F);
     public static final RegistryObject<Item> CHARSCALE_MOKI_SUSHI = food("charscale_moki_sushi", 6, 0.6F);
-    public static final RegistryObject<Item> VENISON_SANDWICH = food("venison_sandwich", 10, 0.8F);
 
-    private ModItems() {
+    private FoodItems() {
     }
 
     private static RegistryObject<Item> food(String name, int nutrition, float saturation) {

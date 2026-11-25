@@ -1,5 +1,7 @@
-package com.jos.bsfdcompat;
+package com.jos.bsfdcompat.registry;
 
+import com.jos.bsfdcompat.BSFDCompat;
+import com.jos.bsfdcompat.block.SnowcapMushroomColonyBlock;
 import com.legacy.blue_skies.registries.SkiesBlocks;
 import java.util.function.Supplier;
 import net.minecraft.world.item.Item;

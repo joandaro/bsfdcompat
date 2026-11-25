@@ -1,5 +1,9 @@
-package com.jos.bsfdcompat;
+package com.jos.bsfdcompat.registry;
 
+import com.jos.bsfdcompat.item.AdaptationFoodItem;
+import com.jos.bsfdcompat.BSFDCompat;
+import com.jos.bsfdcompat.block.PortableFeastBlock;
+import com.jos.bsfdcompat.item.PortableFeastItem;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;

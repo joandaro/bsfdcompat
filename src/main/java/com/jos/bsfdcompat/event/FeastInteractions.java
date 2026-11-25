@@ -1,5 +1,6 @@
-package com.jos.bsfdcompat;
+package com.jos.bsfdcompat.event;
 
+import com.jos.bsfdcompat.BSFDCompat;
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;

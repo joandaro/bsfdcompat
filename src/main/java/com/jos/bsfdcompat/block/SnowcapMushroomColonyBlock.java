@@ -1,4 +1,4 @@
-package com.jos.bsfdcompat;
+package com.jos.bsfdcompat.block;
 
 import java.util.function.Supplier;
 import javax.annotation.Nullable;

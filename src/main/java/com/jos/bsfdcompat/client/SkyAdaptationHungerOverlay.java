@@ -1,7 +1,7 @@
 package com.jos.bsfdcompat.client;
 
 import com.jos.bsfdcompat.BSFDCompat;
-import com.jos.bsfdcompat.ModEffects;
+import com.jos.bsfdcompat.registry.ModEffects;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;

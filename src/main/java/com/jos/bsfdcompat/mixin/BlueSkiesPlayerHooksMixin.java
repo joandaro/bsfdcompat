@@ -1,7 +1,7 @@
 package com.jos.bsfdcompat.mixin;
 
-import com.jos.bsfdcompat.BlueKnifeItem;
-import com.jos.bsfdcompat.ModEffects;
+import com.jos.bsfdcompat.item.BlueKnifeItem;
+import com.jos.bsfdcompat.registry.ModEffects;
 import com.legacy.blue_skies.asm_hooks.PlayerHooks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.player.Player;

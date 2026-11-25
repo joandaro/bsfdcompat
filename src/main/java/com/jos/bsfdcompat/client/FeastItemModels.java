@@ -1,8 +1,8 @@
 package com.jos.bsfdcompat.client;
 
 import com.jos.bsfdcompat.BSFDCompat;
-import com.jos.bsfdcompat.FeastRegistry;
-import com.jos.bsfdcompat.PortableFeastBlock;
+import com.jos.bsfdcompat.registry.FeastRegistry;
+import com.jos.bsfdcompat.block.PortableFeastBlock;
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.resources.ResourceLocation;

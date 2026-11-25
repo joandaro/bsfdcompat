@@ -1,6 +1,9 @@
-package com.jos.bsfdcompat;
+package com.jos.bsfdcompat.block;
 
 import java.util.function.Supplier;
+
+import com.jos.bsfdcompat.registry.FeastRegistry;
+import com.jos.bsfdcompat.registry.ModEffects;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;

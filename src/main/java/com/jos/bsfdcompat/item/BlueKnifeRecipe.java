@@ -1,7 +1,8 @@
-package com.jos.bsfdcompat;
+package com.jos.bsfdcompat.item;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSyntaxException;
+import com.jos.bsfdcompat.registry.KitchenRegistry;
 import com.legacy.blue_skies.data.BlueSkiesData;
 import com.legacy.blue_skies.items.util.ToolUtils;
 import net.minecraft.core.NonNullList;

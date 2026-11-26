@@ -1,0 +1,11 @@
+{
+  "parent": "bsfdcompat:block/soil/everbright/rich_soil_farmland",
+  "overrides": [
+    {
+      "predicate": {
+        "bsfdcompat:soil_variant": 1.0
+      },
+      "model": "bsfdcompat:item/blue_skies_rich_soil_farmland_everdawn"
+    }
+  ]
+}

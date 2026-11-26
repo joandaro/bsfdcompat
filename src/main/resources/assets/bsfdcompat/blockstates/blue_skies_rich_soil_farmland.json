@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "moisture=0,everdawn=false": {
+      "model": "bsfdcompat:block/soil/everbright/rich_soil_farmland"
+    },
+    "moisture=1,everdawn=false": {
+      "model": "bsfdcompat:block/soil/everbright/rich_soil_farmland"
+    },
+    "moisture=2,everdawn=false": {
+      "model": "bsfdcompat:block/soil/everbright/rich_soil_farmland"
+    },
+    "moisture=3,everdawn=false": {
+      "model": "bsfdcompat:block/soil/everbright/rich_soil_farmland"
+    },
+    "moisture=4,everdawn=false": {
+      "model": "bsfdcompat:block/soil/everbright/rich_soil_farmland"
+    },
+    "moisture=5,everdawn=false": {
+      "model": "bsfdcompat:block/soil/everbright/rich_soil_farmland"
+    },
+    "moisture=6,everdawn=false": {
+      "model": "bsfdcompat:block/soil/everbright/rich_soil_farmland"
+    },
+    "moisture=7,everdawn=false": {
+      "model": "bsfdcompat:block/soil/everbright/rich_soil_farmland_moist"
+    },
+    "moisture=0,everdawn=true": {
+      "model": "bsfdcompat:block/soil/everdawn/rich_soil_farmland"
+    },
+    "moisture=1,everdawn=true": {
+      "model": "bsfdcompat:block/soil/everdawn/rich_soil_farmland"
+    },
+    "moisture=2,everdawn=true": {
+      "model": "bsfdcompat:block/soil/everdawn/rich_soil_farmland"
+    },
+    "moisture=3,everdawn=true": {
+      "model": "bsfdcompat:block/soil/everdawn/rich_soil_farmland"
+    },
+    "moisture=4,everdawn=true": {
+      "model": "bsfdcompat:block/soil/everdawn/rich_soil_farmland"
+    },
+    "moisture=5,everdawn=true": {
+      "model": "bsfdcompat:block/soil/everdawn/rich_soil_farmland"
+    },
+    "moisture=6,everdawn=true": {
+      "model": "bsfdcompat:block/soil/everdawn/rich_soil_farmland"
+    },
+    "moisture=7,everdawn=true": {
+      "model": "bsfdcompat:block/soil/everdawn/rich_soil_farmland_moist"
+    }
+  }
+}

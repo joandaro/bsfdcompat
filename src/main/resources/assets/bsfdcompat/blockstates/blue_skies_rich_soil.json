@@ -1,0 +1,38 @@
+{
+  "variants": {
+    "everdawn=false": [
+      {
+        "model": "bsfdcompat:block/soil/everbright/rich_soil"
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/rich_soil",
+        "y": 90
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/rich_soil",
+        "y": 180
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/rich_soil",
+        "y": 270
+      }
+    ],
+    "everdawn=true": [
+      {
+        "model": "bsfdcompat:block/soil/everdawn/rich_soil"
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/rich_soil",
+        "y": 90
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/rich_soil",
+        "y": 180
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/rich_soil",
+        "y": 270
+      }
+    ]
+  }
+}

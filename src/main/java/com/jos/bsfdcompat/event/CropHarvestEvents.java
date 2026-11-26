@@ -37,6 +37,8 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLConstructModEvent;
 import net.minecraftforge.fml.util.ObfuscationReflectionHelper;
 import net.minecraftforge.registries.ForgeRegistries;
+import vectorwing.farmersdelight.common.block.RiceBlock;
+import vectorwing.farmersdelight.common.block.RicePaniclesBlock;
 
 @Mod.EventBusSubscriber(modid = BSFDCompat.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public final class CropHarvestEvents {
@@ -83,6 +85,20 @@ public final class CropHarvestEvents {
         Level level = event.getLevel();
         BlockPos pos = event.getPos();
         BlockState state = level.getBlockState(pos);
+        Class<?> clickedType = state.getBlock().getClass();
+
+        if (state.hasProperty(BlockStateProperties.DOUBLE_BLOCK_HALF)
+                && state.getValue(BlockStateProperties.DOUBLE_BLOCK_HALF) == DoubleBlockHalf.LOWER) {
+            BlockState upper = level.getBlockState(pos.above());
+            if (upper.getBlock() != state.getBlock()
+                    || !upper.hasProperty(BlockStateProperties.DOUBLE_BLOCK_HALF)
+                    || upper.getValue(BlockStateProperties.DOUBLE_BLOCK_HALF) != DoubleBlockHalf.UPPER) {
+                return;
+            }
+            pos = pos.above();
+            state = upper;
+        }
+
         if (!(state.getBlock() instanceof CropBlock crop) || !crop.isMaxAge(state)) {
             return;
         }
@@ -90,11 +106,10 @@ public final class CropHarvestEvents {
                 || !age.getPossibleValues().contains(0)) {
             return;
         }
-        if (state.hasProperty(BlockStateProperties.DOUBLE_BLOCK_HALF)
-                && state.getValue(BlockStateProperties.DOUBLE_BLOCK_HALF) == DoubleBlockHalf.LOWER) {
-            return;
-        }
-        if (HAS_CUSTOM_USE.computeIfAbsent(crop.getClass(), CropHarvestEvents::hasCustomUse)) {
+
+        if (HAS_CUSTOM_USE.computeIfAbsent(clickedType, CropHarvestEvents::hasCustomUse)
+                || (clickedType != crop.getClass()
+                && HAS_CUSTOM_USE.computeIfAbsent(crop.getClass(), CropHarvestEvents::hasCustomUse))) {
             return;
         }
         Player player = event.getEntity();

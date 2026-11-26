@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "bsfdcompat:blue_skies_organic_compost",
+          "functions": [
+            {
+              "function": "minecraft:copy_state",
+              "block": "bsfdcompat:blue_skies_organic_compost",
+              "properties": [
+                "everdawn"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

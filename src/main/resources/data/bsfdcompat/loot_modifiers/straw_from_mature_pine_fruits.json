@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:match_tool",
+      "predicate": {
+        "tag": "farmersdelight:straw_harvesters"
+      }
+    },
+    {
+      "condition": "minecraft:block_state_property",
+      "block": "blue_skies:pine_fruits",
+      "properties": {
+        "age": "3",
+        "half": "upper"
+      }
+    }
+  ],
+  "item": "farmersdelight:straw"
+}

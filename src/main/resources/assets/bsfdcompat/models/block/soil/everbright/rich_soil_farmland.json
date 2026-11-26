@@ -1,0 +1,8 @@
+{
+  "parent": "farmersdelight:block/template_farmland_custom",
+  "textures": {
+    "bottom": "bsfdcompat:block/soil/everbright/rich_soil",
+    "side": "bsfdcompat:block/soil/everbright/rich_soil",
+    "top": "bsfdcompat:block/soil/everbright/rich_soil_farmland"
+  }
+}

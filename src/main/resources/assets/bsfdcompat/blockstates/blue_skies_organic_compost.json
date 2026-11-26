@@ -1,0 +1,276 @@
+{
+  "variants": {
+    "composting=0,everdawn=false": [
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage0"
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage0",
+        "y": 90
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage0",
+        "y": 180
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage0",
+        "y": 270
+      }
+    ],
+    "composting=1,everdawn=false": [
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage0"
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage0",
+        "y": 90
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage0",
+        "y": 180
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage0",
+        "y": 270
+      }
+    ],
+    "composting=2,everdawn=false": [
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage1"
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage1",
+        "y": 90
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage1",
+        "y": 180
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage1",
+        "y": 270
+      }
+    ],
+    "composting=3,everdawn=false": [
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage1"
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage1",
+        "y": 90
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage1",
+        "y": 180
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage1",
+        "y": 270
+      }
+    ],
+    "composting=4,everdawn=false": [
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage2"
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage2",
+        "y": 90
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage2",
+        "y": 180
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage2",
+        "y": 270
+      }
+    ],
+    "composting=5,everdawn=false": [
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage2"
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage2",
+        "y": 90
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage2",
+        "y": 180
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage2",
+        "y": 270
+      }
+    ],
+    "composting=6,everdawn=false": [
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage3"
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage3",
+        "y": 90
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage3",
+        "y": 180
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage3",
+        "y": 270
+      }
+    ],
+    "composting=7,everdawn=false": [
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage3"
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage3",
+        "y": 90
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage3",
+        "y": 180
+      },
+      {
+        "model": "bsfdcompat:block/soil/everbright/organic_compost_stage3",
+        "y": 270
+      }
+    ],
+    "composting=0,everdawn=true": [
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage0"
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage0",
+        "y": 90
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage0",
+        "y": 180
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage0",
+        "y": 270
+      }
+    ],
+    "composting=1,everdawn=true": [
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage0"
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage0",
+        "y": 90
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage0",
+        "y": 180
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage0",
+        "y": 270
+      }
+    ],
+    "composting=2,everdawn=true": [
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage1"
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage1",
+        "y": 90
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage1",
+        "y": 180
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage1",
+        "y": 270
+      }
+    ],
+    "composting=3,everdawn=true": [
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage1"
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage1",
+        "y": 90
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage1",
+        "y": 180
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage1",
+        "y": 270
+      }
+    ],
+    "composting=4,everdawn=true": [
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage2"
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage2",
+        "y": 90
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage2",
+        "y": 180
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage2",
+        "y": 270
+      }
+    ],
+    "composting=5,everdawn=true": [
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage2"
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage2",
+        "y": 90
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage2",
+        "y": 180
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage2",
+        "y": 270
+      }
+    ],
+    "composting=6,everdawn=true": [
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage3"
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage3",
+        "y": 90
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage3",
+        "y": 180
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage3",
+        "y": 270
+      }
+    ],
+    "composting=7,everdawn=true": [
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage3"
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage3",
+        "y": 90
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage3",
+        "y": 180
+      },
+      {
+        "model": "bsfdcompat:block/soil/everdawn/organic_compost_stage3",
+        "y": 270
+      }
+    ]
+  }
+}

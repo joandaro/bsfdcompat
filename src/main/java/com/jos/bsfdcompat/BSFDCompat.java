@@ -7,6 +7,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import com.jos.bsfdcompat.registry.SoilRegistry;
 
 @Mod(BSFDCompat.MODID)
 public final class BSFDCompat {
@@ -35,7 +36,10 @@ public final class BSFDCompat {
         KitchenRegistry.BLOCK_ENTITIES.register(modEventBus);
         KitchenRegistry.ITEMS.register(modEventBus);
         KitchenRegistry.RECIPE_SERIALIZERS.register(modEventBus);
+        SoilRegistry.BLOCKS.register(modEventBus);
+        SoilRegistry.ITEMS.register(modEventBus);
 
+        modEventBus.addListener(SoilRegistry::addCreativeTabContents);
         modEventBus.addListener(RawCuts::addCreativeTabContents);
         modEventBus.addListener(FoodItems::addCreativeTabContents);
         modEventBus.addListener(FeastRegistry::addCreativeTabContents);

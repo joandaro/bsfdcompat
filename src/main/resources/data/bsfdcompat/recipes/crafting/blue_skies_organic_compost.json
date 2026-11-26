@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "bsfdcompat:everbright_dirt"
+    },
+    {
+      "item": "blue_skies:bug_guts"
+    },
+    {
+      "item": "blue_skies:bug_guts"
+    },
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "result": {
+    "item": "bsfdcompat:blue_skies_organic_compost",
+    "count": 1,
+    "nbt": "{\"BlockStateTag\":{\"everdawn\":\"false\"}}"
+  },
+  "group": "bsfdcompat:blue_skies_organic_compost"
+}

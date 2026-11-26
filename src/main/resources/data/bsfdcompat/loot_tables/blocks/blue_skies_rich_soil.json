@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "bsfdcompat:blue_skies_rich_soil",
+          "functions": [
+            {
+              "function": "minecraft:copy_state",
+              "block": "bsfdcompat:blue_skies_rich_soil",
+              "properties": [
+                "everdawn"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

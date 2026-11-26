@@ -62,5 +62,12 @@
   "block.bsfdcompat.pine_fruit_crate": "Pine Fruit Crate",
   "block.bsfdcompat.scalefruit_crate": "Scalefruit Crate",
   "block.bsfdcompat.solnut_crate": "Solnut Crate",
-  "block.bsfdcompat.winter_leaf_crate": "Winter Leaf Crate"
+  "block.bsfdcompat.winter_leaf_crate": "Winter Leaf Crate",
+  "block.bsfdcompat.blue_skies_organic_compost": "Organic Compost",
+  "block.bsfdcompat.lunar_rich_soil": "Lunar Rich Soil",
+  "block.bsfdcompat.turquoise_rich_soil": "Turquoise Rich Soil",
+  "block.bsfdcompat.lunar_rich_soil_farmland": "Lunar Rich Soil Farmland",
+  "block.bsfdcompat.turquoise_rich_soil_farmland": "Turquoise Rich Soil Farmland",
+  "block.bsfdcompat.blue_skies_rich_soil": "Azure Rich Soil",
+  "block.bsfdcompat.blue_skies_rich_soil_farmland": "Azure Rich Soil Farmland"
 }

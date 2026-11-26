@@ -17,8 +17,9 @@ import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import vectorwing.farmersdelight.common.registry.ModBlocks;
+//import vectorwing.farmersdelight.common.registry.ModBlocks;
 import vectorwing.farmersdelight.common.block.MushroomColonyBlock;
+import vectorwing.farmersdelight.common.block.RichSoilBlock;
 
 /** Starts colonies during rich-soil growth or manual bonemeal, without modifying Farmer's Delight. */
 @Mod.EventBusSubscriber(modid = BSFDCompat.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
@@ -103,7 +104,7 @@ public final class MushroomColonyEvents {
             return null;
         }
 
-        if (!level.getBlockState(pos.below()).is(ModBlocks.RICH_SOIL.get())) {
+        if (!(level.getBlockState(pos.below()).getBlock() instanceof RichSoilBlock)) {
             return null;
         }
 

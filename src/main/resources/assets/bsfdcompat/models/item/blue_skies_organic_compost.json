@@ -1,0 +1,11 @@
+{
+  "parent": "bsfdcompat:block/soil/everbright/organic_compost_stage0",
+  "overrides": [
+    {
+      "predicate": {
+        "bsfdcompat:soil_variant": 1.0
+      },
+      "model": "bsfdcompat:item/blue_skies_organic_compost_everdawn"
+    }
+  ]
+}

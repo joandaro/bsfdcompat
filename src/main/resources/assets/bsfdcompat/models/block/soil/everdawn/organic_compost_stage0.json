@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "bsfdcompat:block/soil/everdawn/organic_compost_stage0"
+  }
+}

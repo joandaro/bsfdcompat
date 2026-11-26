@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "blue_skies:lunar_dirt",
+    "blue_skies:coarse_lunar_dirt",
+    "blue_skies:lunar_grass_block",
+    "blue_skies:lunar_comet_grass_block"
+  ]
+}

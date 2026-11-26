@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bug_guts": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blue_skies:bug_guts"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bsfdcompat:crafting/blue_skies_organic_compost"
+      }
+    },
+    "has_everdawn_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bsfdcompat:crafting/blue_skies_organic_compost_everdawn"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bug_guts",
+      "has_the_recipe",
+      "has_everdawn_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bsfdcompat:crafting/blue_skies_organic_compost",
+      "bsfdcompat:crafting/blue_skies_organic_compost_everdawn"
+    ]
+  }
+}

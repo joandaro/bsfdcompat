@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "blue_skies:fiery_beans"
+    },
+    [
+      {
+        "item": "blue_skies:carabeef"
+      },
+      {
+        "item": "bsfdcompat:carabeef_cuts"
+      }
+    ],
+    {
+      "tag": "forge:crops/tomato"
+    },
+    {
+      "tag": "forge:crops/onion"
+    }
+  ],
+  "result": {
+    "item": "bsfdcompat:fiery_bean_chili",
+    "count": 1
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 600,
+  "experience": 0.35,
+  "recipe_book_tab": "meals"
+}

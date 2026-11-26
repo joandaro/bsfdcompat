@@ -53,6 +53,10 @@ public final class FoodItems {
     public static final RegistryObject<Item> GRITTLE_FLATFISH_SUSHI = food("grittle_flatfish_sushi", 6, 0.6F);
     public static final RegistryObject<Item> MUNICIPAL_MONKFISH_SUSHI = food("municipal_monkfish_sushi", 6, 0.6F);
     public static final RegistryObject<Item> CHARSCALE_MOKI_SUSHI = food("charscale_moki_sushi", 6, 0.6F);
+    public static final RegistryObject<Item> WINTER_GARDEN_SALAD = food("winter_garden_salad", 7, 0.8F, 0, false, true);
+    public static final RegistryObject<Item> FIERY_BEAN_CHILI = meal("fiery_bean_chili", 10, 0.8F, 180);
+    public static final RegistryObject<Item> SNOWCAP_MUSHROOM_RISOTTO = meal("snowcap_mushroom_risotto", 8, 0.7F, 180);
+    public static final RegistryObject<Item> PINE_FRUIT_CRUMBLE = food("pine_fruit_crumble", 5, 0.6F);
 
     private FoodItems() {
     }

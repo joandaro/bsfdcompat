@@ -1,11 +1,12 @@
 {
   "type": "farmersdelight:cooking",
   "ingredients": [
+    [
+      { "item": "blue_skies:monitor_tail" },
+      { "item": "bsfdcompat:monitor_tail_cuts" }
+    ],
     {
-      "item": "blue_skies:monitor_tail"
-    },
-    {
-      "item": "minecraft:honey_bottle"
+      "item": "blue_skies:crescent_fruit"
     },
     {
       "item": "blue_skies:fiery_beans"

@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "blue_skies:pine_fruit"
+    },
+    {
+      "item": "blue_skies:scalefruit"
+    },
+    {
+      "tag": "forge:dough/wheat"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:milk"
+    }
+  ],
+  "result": {
+    "item": "bsfdcompat:pine_fruit_crumble",
+    "count": 2
+  },
+  "cookingtime": 400,
+  "experience": 0.35,
+  "recipe_book_tab": "misc"
+}

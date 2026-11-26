@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "blue_skies:winter_leaves"
+    },
+    {
+      "item": "blue_skies:scalefruit"
+    },
+    {
+      "item": "blue_skies:cryo_root"
+    },
+    {
+      "item": "blue_skies:solnut"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "bsfdcompat:winter_garden_salad",
+    "count": 1
+  }
+}

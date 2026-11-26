@@ -8,6 +8,9 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import com.jos.bsfdcompat.registry.SoilRegistry;
+import net.minecraft.world.level.block.ComposterBlock;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.registries.ForgeRegistries;
 
 @Mod(BSFDCompat.MODID)
 public final class BSFDCompat {
@@ -47,5 +50,11 @@ public final class BSFDCompat {
         modEventBus.addListener(MushroomColonies::addCreativeTabContents);
         modEventBus.addListener(MushroomColonies::commonSetup);
         modEventBus.addListener(KitchenRegistry::addCreativeTabContents);
+        modEventBus.addListener((FMLCommonSetupEvent event) ->
+                event.enqueueWork(() ->
+                        ComposterBlock.COMPOSTABLES.put(
+                                ForgeRegistries.ITEMS.getValue(
+                                        new ResourceLocation("blue_skies", "bug_guts")),
+                                0.65F)));
     }
 }
